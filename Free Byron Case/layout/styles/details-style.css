@@ -1,0 +1,166 @@
+@charset "utf-8";
+@import url("fontawesome-free/css/fontawesome-all.min.css");
+/* All Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+/* Fonts End */
+.slide {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+    margin-bottom: 0px!important;
+}
+
+.slide h1 {
+    font-size: 112px;
+    text-align: center;
+    padding: 2% 6% 1% 6%;
+    background-color: #ffffff;
+    color: black;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 30px -5px #dc35456e;
+    border-radius: 8px;
+}
+
+/* .content {
+    background-color: rgb(182 182 182 / 0%);
+    border-radius: 14px;
+    padding: 2%;
+    margin: 2% 0%;
+    box-shadow: 0px 0px 42px #ff000029;
+} */
+
+
+.content h3 {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 0% 3%;
+}
+
+.content p {
+    font-size: 18px;
+    text-align: left;
+    padding: 0% 3%;
+}
+
+.content ul {
+    padding-left: 7%;
+    list-style-type: circle;
+}
+
+.content ul li {
+    margin-bottom: 1%;
+}
+
+.sec {
+    display: flex;
+    flex-flow: row;
+}
+
+.sec p {
+    font-size: 20px;
+    text-align: left;
+    padding: 2% 3%;
+}
+
+.sec .photo {
+    padding: 2%;
+}
+
+.sec .photo img {
+    height: 266px;
+    padding: .25rem;
+    border-radius: 4px;
+    border: 1px solid #E8E8E833;
+}
+.lst h6 {
+    font-size: 23px;
+    padding: 6% 0%;
+}
+
+.lst ul li a {
+    color: black !important;
+}
+
+.lst ul li a {
+    color: red !important;
+    padding: 3% 0% !important;
+    display: block;
+}
+
+.lst ul li a:hover {
+    color: rgb(109, 12, 12) !important;
+}
+
+.lst ul li a span {
+    color: black;
+    padding: 2%;
+}
+
+.audios-sec {
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.audios-sec .audio1 {
+    padding: 2%;
+}
+
+.audios-sec .audio1 h5 {
+    font-size: 16px;
+    padding: 0% 4%;
+}
+
+.audios-sec .audio1 audio {
+    box-shadow: 0px 0px 7px 1px #E8E8E878;
+    border-radius: 53px;
+}
+
+.prt-2 {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 978px) {
+    .sec p {
+        font-size: 18px;
+        padding: 2% 8%;
+    }
+
+    .sec {
+        display: block !important;
+        text-align: center;
+    }
+
+    .slide h1 {
+        margin: 10% 0%;
+        font-size: 41px;
+    }
+
+    .content h3 {
+        font-size: 24px;
+        padding: 5% 3%;
+    }
+
+    .lst {
+        padding: 0% 2%;
+        width: 100%;
+    }
+
+    .audios-sec {
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+
+
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+@import url("fontawesome-free/css/fontawesome-all.min.css");
+/* All Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+/* Fonts End */
+.slide {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+}
+.slide h1 {
+    font-size: 112px;
+    text-align: center;
+    padding: 2% 6% 1% 6%;
+    background-color: #ffffff;
+    color: black;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 30px -5px #dc35456e;
+    border-radius: 8px;
+}
+.content{
+    background-color: rgb(182 182 182 / 0%);
+    border-radius: 14px;
+    padding: 2%;
+    margin: 2% 0%;
+    box-shadow: 0px 0px 42px #ff000029;
+}
+.content h2 {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+}
+.content .p-1 {
+    text-align: center;
+    font-size: 22px;
+}
+.content ul li {
+    list-style-type: none;
+    text-align: left;
+    padding: 0.2% 2%;
+    font-size: 19px;
+    margin: 1% 0%;
+    width: 48%;
+}
+.content ul li i {
+    color: red;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #000000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    box-shadow: 0px 0px 15px #ff0000a3;
+}
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.content ul li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 18px;
+    margin: 2% 0%;
+    width: 48%;
+    border: 2px solid red;
+    display: flex;
+    padding: 2%;
+    color: black;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.content ul li a {
+    color: darkred;
+}
+.content ul li a:hover {
+    color: red;
+}
+.content ul li span {
+    width: 78%;
+}
+.content > p.center {
+    font-size: 24px;
+}
+.contact-us.center {
+    font-size: 22px;
+    margin: 2%;
+    font-weight: 900;
+}
+.contact-us.center a{
+    color: red;
+}
+@media screen and (max-width: 978px) {
+    .slide h1 {
+        font-size: 64px;
+        margin-top: 10%;
+    }
+    .slide p {
+        font-size: 18px;
+    }
+    .content h2 {
+        font-size: 28px;
+    }
+    .content ul li {
+        font-size: 14px;
+        width: 96%;
+        background-color: #b2b2b2c2;
+        padding: 6% 2%;
+    }
+    .content ul {
+        padding: 0%;
+    }
+}
